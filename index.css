@@ -1,0 +1,81 @@
+@use "@material";
+body {
+  font-family: roboto;
+  margin: 2em;
+  color: #3d3d3d;
+  --mdc-theme-primary: #007f8b;
+  --mdc-theme-on-primary: #f1f3f4;
+}
+
+h1 {
+  color: #007f8b;
+}
+
+h2 {
+  clear: both;
+}
+
+em {
+  font-weight: bold;
+}
+
+video {
+  clear: both;
+  display: block;
+}
+canvas {
+  clear: both;
+  display: block;
+}
+
+section {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.removed {
+  display: none;
+}
+
+.invisible {
+  opacity: 0.2;
+}
+
+.videoView,
+.segmentOnClick {
+  position: relative;
+  float: left;
+  width: 48%;
+  margin: 2% 1%;
+  cursor: pointer;
+}
+
+.segmentOnClick p {
+  padding: 5px;
+  background-color: #007f8b;
+  color: #fff;
+  z-index: 2;
+  font-size: 12px;
+  margin: 0;
+}
+
+.segmentOnClick {
+  z-index: 0;
+}
+
+.segmentOnClick canvas {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.segmentOnClick img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
