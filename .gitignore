@@ -136,3 +136,10 @@ dist
 .pnp.*
 
 .vscode
+.idea/codeStyles/Project.xml
+.idea/virtual-background-demo.iml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/.gitignore
