@@ -73,9 +73,3 @@ section {
 .segmentOnClick img {
   width: 100%;
 }
-
-.container {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-}
